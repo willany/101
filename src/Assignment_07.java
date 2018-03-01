@@ -13,6 +13,7 @@ public class Assignment_07 {
                 System.out.print(" ");
             }
 
+            //case is a central line should print my name
             if(i == 0){
                 System.out.print("willany");
             }else {

@@ -1,3 +1,10 @@
+/**
+ * TWU 101 Assignments
+ * Prime Factors Exercise
+ *
+ * @author  Willany Silva
+ * @since   2018-03-05
+ */
 package primeFactors;
 
 import java.util.*;

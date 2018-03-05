@@ -3,7 +3,7 @@
  * Fizz Buzz Exercises
  *
  * @author  Willany Silva
- * @since   2018-03-01
+ * @since   2018-03-05
  */
 package fizzBuzz;
 

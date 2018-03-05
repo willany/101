@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="749d6290-86a5-4eca-9b7b-fab1696c429f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/primeFactors/PrimeFactorsGenerator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/primeFactors/PrimeFactorsGeneratorTest.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/fizzBuzz/FizzBuzzGenerator.java" afterPath="$PROJECT_DIR$/src/fizzBuzz/FizzBuzzGenerator.java" />
+      <change beforePath="$PROJECT_DIR$/src/primeFactors/PrimeFactorsGenerator.java" afterPath="$PROJECT_DIR$/src/primeFactors/PrimeFactorsGenerator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,13 +20,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FizzBuzzGenerator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FizzBuzzGenerator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fizzBuzz/FizzBuzzGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="75">
+              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
                 <element signature="e#1052#1053#0" expanded="true" />
                 <element signature="e#1092#1093#0" expanded="true" />
@@ -50,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PrimeFactorsGenerator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PrimeFactorsGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/primeFactors/PrimeFactorsGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="24" />
+            <state relative-caret-position="30">
+              <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -120,10 +118,10 @@
         <option value="$PROJECT_DIR$/test/asterisk/AsteriskGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/diamond/DiamondGenerator.java" />
         <option value="$PROJECT_DIR$/test/diamond/DiamondGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/fizzBuzz/FizzBuzzGenerator.java" />
         <option value="$PROJECT_DIR$/test/fizzBuzz/FizzBuzzGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/src/primeFactors/PrimeFactorsGenerator.java" />
         <option value="$PROJECT_DIR$/test/primeFactors/PrimeFactorsGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/primeFactors/PrimeFactorsGenerator.java" />
+        <option value="$PROJECT_DIR$/src/fizzBuzz/FizzBuzzGenerator.java" />
       </list>
     </option>
   </component>
@@ -556,7 +554,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22941177" sideWeight="0.6284722" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22941177" sideWeight="0.3715278" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22941177" sideWeight="0.3715278" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.49444443" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -723,21 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fizzBuzz/FizzBuzzGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1092#1093#0" expanded="true" />
-            <element signature="e#1209#1210#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/fizzBuzz/FizzBuzzGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -760,9 +743,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/primeFactors/PrimeFactorsGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="24" />
+        <state relative-caret-position="30">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fizzBuzz/FizzBuzzGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+            <element signature="e#1209#1210#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

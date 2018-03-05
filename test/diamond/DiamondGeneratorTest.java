@@ -23,6 +23,7 @@ public class DiamondGeneratorTest {
         //equal
         Assert.assertEquals(  space + space + space + space + "*\n" + space + space + space +"***\n" + space + space + "*****\n" + space + "*******\n" + "*********", diamondGenerator.printIsoscelesTriangle(5));
         Assert.assertEquals(space + space + "*\n" + space +  "***\n" + "*****", diamondGenerator.printIsoscelesTriangle(3));
+        Assert.assertEquals("*", diamondGenerator.printIsoscelesTriangle(1));
 
         //not equal
         Assert.assertNotEquals("*", diamondGenerator.printIsoscelesTriangle(-1));
@@ -32,7 +33,22 @@ public class DiamondGeneratorTest {
     public void printDiamondTest(){
         //equal
         Assert.assertEquals(space + space + "*\n" + space + "***\n" + "*****\n" + space + "***\n" + space + space + "*", diamondGenerator.printDiamond(3));
-        Assert.assertNotEquals(space + "*\n" + "**\n" + space + "*", diamondGenerator.printDiamond(1));
+        Assert.assertEquals("*", diamondGenerator.printDiamond(1));
+        Assert.assertEquals("", diamondGenerator.printDiamond(0));
+
+        //not equal
+        Assert.assertNotEquals("*", diamondGenerator.printDiamond(2));
+
+    }
+
+    @Test
+    public void printDiamondWithNameTest(){
+        //equal
+        Assert.assertEquals(space + space + "*\n" + space + "***\n" + "WILLANY\n" + space + "***\n" + space + space + "*", diamondGenerator.printDiamondWithName(3));
+        Assert.assertEquals("", diamondGenerator.printDiamond(0));
+
+        //not equal
+        Assert.assertNotEquals(space + "*\n", diamondGenerator.printDiamondWithName(-1));
 
     }
 

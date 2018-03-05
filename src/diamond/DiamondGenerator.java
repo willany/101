@@ -14,7 +14,10 @@ import java.util.*;
 
 public class DiamondGenerator extends AsteriskGenerator{
 
+    private final String NAME = "WILLANY";
+
     //Helper
+
     //Add spaces
     public String addSpace(int line_numbers, int line){
         String spaces = "";
@@ -24,19 +27,48 @@ public class DiamondGenerator extends AsteriskGenerator{
         return spaces;
     }
 
+    //Create a base line pyramid
+    public String createBaseLine(int number){
+        return printAsteriskN(number * 2 - 1);
+    }
+
+    //remove line
+    public List removeLastLine(List list){
+        List list_empty = new ArrayList();
+        if(list.size() > 1) {
+            list.remove(list.size() - 1);
+            return list;
+        }else{
+            return list_empty;
+        }
+
+    }
+
+    //reverse pyramid
+    public List reversePyramid(List pyramid){
+        Collections.reverse(pyramid);
+        return pyramid;
+    }
+
+    //convert to list to string
+    public String listToStringWithSeparator(String separator, List list){
+        String string = String.join(separator, list);
+        return string;
+    }
+
 
     public List<String> createPyramid(int number){
 
-        List pyramidBuffer = new ArrayList();
+        List pyramid = new ArrayList();
         String spaces, asterisks;
 
         for (int count = 1; count <= number; count++) {
             spaces = addSpace(number, count);
             asterisks = printAsteriskN(count * 2 - 1);
-            pyramidBuffer.add(spaces + asterisks);
+            pyramid.add(spaces + asterisks);
         }
 
-        return pyramidBuffer;
+        return pyramid;
     }
 
 
@@ -47,22 +79,61 @@ public class DiamondGenerator extends AsteriskGenerator{
         return joiner;
     }
 
-
     //Diamond
     //Given a number n, print a centered diamond.
     public String printDiamond(int number) {
-        List pyramid = createPyramid(number);
-        pyramid.remove(pyramid.size() - 1);
-        String pyramid_joined = String.join("\n", pyramid);
+        String diamond;
 
-        List inverted_pyramid = createPyramid(number);
-        inverted_pyramid.remove(inverted_pyramid.size() - 1);
-        Collections.reverse(inverted_pyramid);
-        String inverted_pyramid_joined = String.join("\n", inverted_pyramid);
+        //creating a pyramid
+        List pyramid_list = createPyramid(number);
+        pyramid_list = removeLastLine(pyramid_list);
+        String pyramid = listToStringWithSeparator("\n", pyramid_list);
 
-        String baseLine = printAsteriskN(number * 2 - 1);
+        //creating a inverted pyramid
+        List inverted_pyramid_list = createPyramid(number);
+        inverted_pyramid_list = removeLastLine(inverted_pyramid_list);
+        inverted_pyramid_list = reversePyramid(inverted_pyramid_list);
+        String inverted_pyramid = listToStringWithSeparator("\n", inverted_pyramid_list);
 
-        return (pyramid_joined + "\n" + baseLine + "\n" + inverted_pyramid_joined);
+        //create a baseline
+        String baseLine = createBaseLine(number);
+
+        if(!pyramid.isEmpty()){
+            diamond = String.join("\n", pyramid, baseLine, inverted_pyramid);
+        }else{
+            diamond = baseLine;
+        }
+
+        return diamond;
+
+    }
+
+    //Diamond with Name
+    //Given a number n, print a centered diamond with your name in place of the middle line.
+    public String printDiamondWithName(int number) {
+        String diamond;
+
+        //creating a pyramid
+        List pyramid_list = createPyramid(number);
+        pyramid_list = removeLastLine(pyramid_list);
+        String pyramid = listToStringWithSeparator("\n", pyramid_list);
+
+        //creating a inverted pyramid
+        List inverted_pyramid_list = createPyramid(number);
+        inverted_pyramid_list = removeLastLine(inverted_pyramid_list);
+        inverted_pyramid_list = reversePyramid(inverted_pyramid_list);
+        String inverted_pyramid = listToStringWithSeparator("\n", inverted_pyramid_list);
+
+        //create a baseline
+        String baseLine = NAME;
+
+        if(!pyramid.isEmpty()){
+            diamond = String.join("\n", pyramid, baseLine, inverted_pyramid);
+        }else{
+            diamond = baseLine;
+        }
+
+        return diamond;
 
     }
 }

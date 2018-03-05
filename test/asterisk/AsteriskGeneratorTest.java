@@ -27,6 +27,7 @@ public class AsteriskGeneratorTest {
     public void printAsterisksNTest(){
         //equal
         Assert.assertEquals("*****", asteriskGenerator.printAsteriskN(5));
+        Assert.assertEquals("*", asteriskGenerator.printAsteriskN(1));
         Assert.assertEquals("", asteriskGenerator.printAsteriskN(-1));
 
         //not equal
@@ -52,6 +53,7 @@ public class AsteriskGeneratorTest {
     @Test
     public void printTriangleTest(){
         //equal
+        Assert.assertEquals("*", asteriskGenerator.printTriangle(1));
         Assert.assertEquals("*\n**\n***", asteriskGenerator.printTriangle(3));
         Assert.assertEquals("*\n**\n***\n****\n*****", asteriskGenerator.printTriangle(5));
         Assert.assertEquals("", asteriskGenerator.printTriangle(-1));
@@ -62,5 +64,7 @@ public class AsteriskGeneratorTest {
         Assert.assertNotEquals("*\n", asteriskGenerator.printTriangle(1));
 
     }
+
+
 
 }

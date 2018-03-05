@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="749d6290-86a5-4eca-9b7b-fab1696c429f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/test/fizzBuzz/FizzBuzzGeneratorTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/primeFactors/PrimeFactorsGenerator.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test/primeFactors/PrimeFactorsGeneratorTest.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/fizzBuzz/FizzBuzzGenerator.java" afterPath="$PROJECT_DIR$/src/fizzBuzz/FizzBuzzGenerator.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,8 +24,8 @@
       <file leaf-file-name="FizzBuzzGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fizzBuzz/FizzBuzzGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -38,11 +38,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FizzBuzzGeneratorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FizzBuzzGeneratorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/fizzBuzz/FizzBuzzGeneratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="53" column="32" lean-forward="false" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+            <state relative-caret-position="351">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimeFactorsGenerator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/primeFactors/PrimeFactorsGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PrimeFactorsGeneratorTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/primeFactors/PrimeFactorsGeneratorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,8 +77,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -100,6 +122,8 @@
         <option value="$PROJECT_DIR$/test/diamond/DiamondGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/fizzBuzz/FizzBuzzGenerator.java" />
         <option value="$PROJECT_DIR$/test/fizzBuzz/FizzBuzzGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/src/primeFactors/PrimeFactorsGenerator.java" />
+        <option value="$PROJECT_DIR$/test/primeFactors/PrimeFactorsGeneratorTest.java" />
       </list>
     </option>
   </component>
@@ -194,6 +218,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="primeFactors" />
       <recent name="fizzBuzz" />
       <recent name="diamond" />
       <recent name="" />
@@ -223,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzGeneratorTest.fizzBuzzTest">
+  <component name="RunManager" selected="JUnit.PrimeFactorsGeneratorTest.divisibleByThreeTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -258,31 +283,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="DiamondGeneratorTest.printDiamondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="diamond.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="101" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="diamond" />
-      <option name="MAIN_CLASS_NAME" value="diamond.DiamondGeneratorTest" />
-      <option name="METHOD_NAME" value="printDiamondTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="DiamondGeneratorTest.printDiamondWithNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -384,6 +384,31 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration name="PrimeFactorsGeneratorTest.divisibleByThreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="primeFactors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="101" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="primeFactors" />
+      <option name="MAIN_CLASS_NAME" value="primeFactors.PrimeFactorsGeneratorTest" />
+      <option name="METHOD_NAME" value="divisibleByThreeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -446,19 +471,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Assignment_07" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondGeneratorTest.printDiamondTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DiamondGeneratorTest.printDiamondWithNameTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzGeneratorTest.divisibleByThreeTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzGeneratorTest.divisibleByFiveTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.FizzBuzzGeneratorTest.fizzBuzzTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DiamondGeneratorTest.printDiamondWithNameTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzGeneratorTest.divisibleByThreeTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzGeneratorTest.divisibleByFiveTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.FizzBuzzGeneratorTest.fizzBuzzTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.PrimeFactorsGeneratorTest.divisibleByThreeTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.FizzBuzzGeneratorTest.fizzBuzzTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzGeneratorTest.divisibleByFiveTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzGeneratorTest.divisibleByThreeTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.DiamondGeneratorTest.printDiamondWithNameTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.DiamondGeneratorTest.printDiamondTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PrimeFactorsGeneratorTest.divisibleByThreeTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.FizzBuzzGeneratorTest.fizzBuzzTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.FizzBuzzGeneratorTest.divisibleByFiveTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.FizzBuzzGeneratorTest.divisibleByThreeTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DiamondGeneratorTest.printDiamondWithNameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -487,27 +512,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FizzBuzzGeneratorTest_divisibleByFiveTest - 2018.03.05 at 15h 28m 35s.xml">
-      <configuration name="FizzBuzzGeneratorTest.divisibleByFiveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGeneratorTest_divisibleByFiveTest - 2018.03.05 at 15h 29m 03s.xml">
-      <configuration name="FizzBuzzGeneratorTest.divisibleByFiveTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGeneratorTest_divisibleByThreeTest - 2018.03.05 at 15h 27m 30s.xml">
-      <configuration name="FizzBuzzGeneratorTest.divisibleByThreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGeneratorTest_divisibleByThreeTest - 2018.03.05 at 15h 27m 54s.xml">
-      <configuration name="FizzBuzzGeneratorTest.divisibleByThreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGeneratorTest_divisibleByThreeTest - 2018.03.05 at 15h 28m 12s.xml">
-      <configuration name="FizzBuzzGeneratorTest.divisibleByThreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGeneratorTest_fizzBuzzTest - 2018.03.05 at 15h 31m 03s.xml">
-      <configuration name="FizzBuzzGeneratorTest.fizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FizzBuzzGeneratorTest_fizzBuzzTest - 2018.03.05 at 15h 31m 21s.xml">
-      <configuration name="FizzBuzzGeneratorTest.fizzBuzzTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FizzBuzzGeneratorTest_fizzBuzzTest - 2018.03.05 at 15h 32m 05s.xml">
       <configuration name="FizzBuzzGeneratorTest.fizzBuzzTest" configurationId="JUnit" />
     </history-entry>
@@ -516,6 +520,27 @@
     </history-entry>
     <history-entry file="FizzBuzzGeneratorTest_fizzBuzzTest - 2018.03.05 at 15h 37m 37s.xml">
       <configuration name="FizzBuzzGeneratorTest.fizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsGeneratorTest_divisibleByThreeTest - 2018.03.05 at 15h 55m 42s.xml">
+      <configuration name="PrimeFactorsGeneratorTest.divisibleByThreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsGeneratorTest_divisibleByThreeTest - 2018.03.05 at 15h 57m 15s.xml">
+      <configuration name="PrimeFactorsGeneratorTest.divisibleByThreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsGeneratorTest_divisibleByThreeTest - 2018.03.05 at 16h 03m 04s.xml">
+      <configuration name="PrimeFactorsGeneratorTest.divisibleByThreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsGeneratorTest_divisibleByThreeTest - 2018.03.05 at 16h 03m 14s.xml">
+      <configuration name="PrimeFactorsGeneratorTest.divisibleByThreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsGeneratorTest_divisibleByThreeTest - 2018.03.05 at 16h 03m 34s.xml">
+      <configuration name="PrimeFactorsGeneratorTest.divisibleByThreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsGeneratorTest_divisibleByThreeTest - 2018.03.05 at 16h 04m 07s.xml">
+      <configuration name="PrimeFactorsGeneratorTest.divisibleByThreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PrimeFactorsGeneratorTest_divisibleByThreeTest - 2018.03.05 at 16h 04m 22s.xml">
+      <configuration name="PrimeFactorsGeneratorTest.divisibleByThreeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -700,8 +725,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/fizzBuzz/FizzBuzzGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="25" column="30" lean-forward="false" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
@@ -715,11 +740,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/fizzBuzz/FizzBuzzGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="32" lean-forward="false" selection-start-line="53" selection-start-column="32" selection-end-line="53" selection-end-column="32" />
+        <state relative-caret-position="351">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/primeFactors/PrimeFactorsGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/primeFactors/PrimeFactorsGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
